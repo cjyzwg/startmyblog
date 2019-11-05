@@ -11,8 +11,5 @@
 
 
 ### 以下是gif演示图
-1. ![image](https://github.com/cjyzwg/startmyblog/blob/master/1.gif)
-1. ![image](https://github.com/cjyzwg/startmyblog/blob/master/2.gif)
-1. ![image](https://github.com/cjyzwg/startmyblog/blob/master/3.gif)
-
+![image](./1.gif)
 
