@@ -7,7 +7,7 @@
 
 1. fluttersdk 版本>2.1.0  
 1. /lib/config.dart 配置了url请求，以及极光推送通知的appkey
-1. - [<font color=#0099ff>forestblog</font>](https://github.com/cjyzwg/forestblog) --- 既是网页版的博客，同时也是提供接口。
+1. [<font color=#0099ff>forestblog</font>](https://github.com/cjyzwg/forestblog) --- 既是网页版的博客，同时也是提供接口。
 
 
 ### 以下是gif演示图
