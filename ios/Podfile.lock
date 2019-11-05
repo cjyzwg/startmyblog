@@ -1,0 +1,45 @@
+PODS:
+  - Flutter (1.0.0)
+  - fluttertoast (0.0.2):
+    - Flutter
+  - JCore (2.1.4)
+  - JPush (3.2.6):
+    - JCore (< 3.0.0, >= 2.0.0)
+  - jpush_flutter (0.0.2):
+    - Flutter
+    - JPush
+  - url_launcher (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - fluttertoast (from `.symlinks/plugins/fluttertoast/ios`)
+  - jpush_flutter (from `.symlinks/plugins/jpush_flutter/ios`)
+  - url_launcher (from `.symlinks/plugins/url_launcher/ios`)
+
+SPEC REPOS:
+  trunk:
+    - JCore
+    - JPush
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  fluttertoast:
+    :path: ".symlinks/plugins/fluttertoast/ios"
+  jpush_flutter:
+    :path: ".symlinks/plugins/jpush_flutter/ios"
+  url_launcher:
+    :path: ".symlinks/plugins/url_launcher/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  fluttertoast: b644586ef3b16f67fae9a1f8754cef6b2d6b634b
+  JCore: d345c049141877eb61c33011455fdb5fcab1673f
+  JPush: 41dd48a69bd8c08abc692dc7f2b23c0fb281471f
+  jpush_flutter: d7e3a79466eb9447fd940233f02661b514f137c6
+  url_launcher: a1c0cc845906122c4784c542523d8cacbded5626
+
+PODFILE CHECKSUM: b6a0a141693093b304368d08511b46cf3d1d0ac5
+
+COCOAPODS: 1.8.4
