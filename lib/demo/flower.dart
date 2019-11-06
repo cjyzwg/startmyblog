@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import '../model/category.dart';
 import './flower_page.dart';
 import './editor_page.dart';
+import '../config.dart';
 
 class FlowerDemo extends StatelessWidget {
   final Category categorylist;
@@ -72,8 +73,7 @@ class _FlowerSheetState extends State<FlowerSheet> {
   }
 
   Future getData({String type = 'api'}) async {
-    // final String url = "http://localhost:8081/$type?category=$category";
-    final String url = "http://blog.hexiefamily.xin/$type";
+    final String url = UrlConfig.url+"/$type";
     final response = await http.get(url);
 
     if (response.statusCode == 200) {
